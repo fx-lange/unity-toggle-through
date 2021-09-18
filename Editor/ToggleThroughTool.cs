@@ -7,23 +7,7 @@ namespace FxLange.ToggleThrough
     [EditorTool("Toggle Through")]
     internal class ToggleThroughTool : EditorTool
     {
-        [SerializeField] private Texture2D toolIcon;
-
-        private GUIContent _iconContent;
-
         private int _activeIndex;
-
-        private void OnEnable()
-        {
-            _iconContent = new GUIContent()
-            {
-                image = toolIcon,
-                text = "Toggle Through Tool",
-                tooltip = "Toggle through a selection of GameObjects"
-            };
-        }
-
-        public override GUIContent toolbarIcon => _iconContent;
 
         public override void OnActivated()
         {
