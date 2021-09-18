@@ -4,5 +4,16 @@
   "displayName": "Toggle Through",
   "type": "tool",
   "description": "In scene view editor tool to cycle through a selection of objects.",
-  "unity": "2020.3"
+  "unity": "2020.3",
+  "author": {
+    "name": "Felix Lange",
+    "email": "mail@felixlange.dev",
+    "url": "felixlange.dev"
+  },
+  "keywords": [
+    "toggle",
+    "cycle",
+    "through"
+  ],
+  "licensesUrl": "https://github.com/fx-lange/unity-toggle-through/blob/main/LICENSE"
 }
