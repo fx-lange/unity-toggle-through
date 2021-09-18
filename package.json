@@ -2,7 +2,6 @@
   "name": "com.fxlange.toggle-through",
   "version": "0.0.2",
   "displayName": "Toggle Through",
-  "type": "tool",
   "description": "In scene view editor tool to cycle through a selection of objects.",
   "unity": "2020.3",
   "author": {
