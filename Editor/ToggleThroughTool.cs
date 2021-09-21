@@ -49,6 +49,11 @@ namespace FxLange.ToggleThrough
         {
             var selection = Selection.gameObjects;
 
+            if (selection.Length == 0)
+            {
+                return;
+            }
+            
             if (selection.Length == 1)
             {
                 var singleSelection = selection[0];
