@@ -35,7 +35,8 @@ namespace FxLange.ToggleThrough
 
         private void Init()
         {
-            if (Selection.gameObjects is {Length: >= 2})
+            if (Selection.gameObjects != null 
+                && Selection.gameObjects.Length >= 2)
             {
                 _activeIndex = Selection.gameObjects[0].activeSelf ? 0 : -1;
             }
