@@ -74,7 +74,8 @@ namespace FxLange.ToggleThrough
 
         public override void OnToolGUI(EditorWindow window)
         {
-            if (window is not SceneView)
+            var view = window as SceneView;
+            if (view is null)
             {
                 return;
             }
