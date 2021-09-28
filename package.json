@@ -3,7 +3,7 @@
   "version": "0.0.5",
   "displayName": "Toggle Through",
   "description": "In scene view editor tool to cycle through a selection of objects.",
-  "unity": "2021.2",
+  "unity": "2021.1",
   "author": {
     "name": "Felix Lange",
     "email": "mail@felixlange.dev",
