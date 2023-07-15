@@ -1,11 +1,5 @@
-# unity-toggle-through
-
-Editor tool to quickly cycle through a selection of objects. 
-
-## What?
-
-Being tired of checking those boxes when comparing objects? 
-
-Try **Toggle Through**!
+# Toggle Through
 
 ![Teaser](Docs/teaser.gif)
+
+**Toggle Through** is a Unity editor tool that allows you to quickly cycle through a selection of objects in Unity, streamlining the process of comparing and analyzing them.
